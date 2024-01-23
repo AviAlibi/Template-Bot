@@ -7,4 +7,4 @@ from os import getenv
 
 
 async def is_this_user_the_developer(self, user_id):
-    return True if user_id is getenv('BOT_DEVELOPER') else False
+    return True if user_id is getenv('DEVELOPER_ID') else False
