@@ -49,7 +49,7 @@ async def on_ready():
 @bot.event
 async def setup_hook():
     # this will be every cog file and its commands that are within this list, this lets you remove and add files as you want and not just running every file in the folder, more work, easier debugging
-    active_extensions = ['cogs._dev_commands', 'cogs._server_status']
+    active_extensions = ['cogs._example_cog']
     if __name__ == '__main__':
         # this is basically loading the files
         for extension in active_extensions:
